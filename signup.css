@@ -1,55 +1,66 @@
-.left_text{
+.main_div{
+	background-color:white;
+	opacity:100;
+	height:610px;
+	max-width:1000px;
+	margin:72px 250px 72px 250px;
+	z-index:0;
+}
+.left{
+	background-color:black;
+	opacity:100;
+	height:610px;
+	max-width:500px;
 	display:flex;
 	flex-direction: column;
-	width:755px;
-	padding-left:140px;
-	padding-top:140px;
-	padding-bottom:80px;
-	z-index:1;
+	margin:0px 250px 0px  0px;
+	padding-left:-350px;
 }
 .empire{	
+	margin:60px 400px 500px 70px;
+	z-index:2;
 	font-size:18px;
 	font-family: Calibri;
 	color:white;
 }
-.join{
+.join{	
+	margin:-440px 50px 200px  65px;
+	z-index:2;
 	color:white;
 	font-size:34px;
 	font-family:Calibri;
 }
 .about{
+	z-index:3;
+	margin:-80px 0px 0px 0px;
 	display:flex;
-	padding-left:140px;
+	padding-left:55px;
 	font-family:Calibri;
+	font-weight:bold;
 	font-size:16px;
-	color:#EC3C54;
+	color:#E93B54;
 }
 img {
-	height:85%;
-	width:681px;
-  	position: absolute;
-	opacity:0.5;
-  	left: 70px;
- 	 top:60px;
-	margin-bottom:20px;
-	z-index:-1;
+	margin-top:-423px;
+	height:610px;
+	width:100%;
+	opacity:0.2;
+	z-index:1;
 }
 .right{
-	background-color:white;
-	z-index:1;
-	height:490px;
-	width:630px;
+	opacity:100;
+	height:510px;
+	z-index:3;
+	max-width:500px;
 	font-size:13;
 	font-family:Calibri;
 	color:#C0C0C0;
 	font-weight:bold;
-	margin-top:-565px;
-	margin-left:744px;
-	padding-top:150px;
-	padding-left:80px;
+	margin:-549px 0px 0px  500px;
+	padding:100px 0px 0px 70px;
 }
 input[type=text],input[type=password],input[type=email]{
-	width:550px;
+	width:350px;
 	height:40px;
 	font-weight:bold;
 	box-sizing: border-box;
@@ -72,7 +83,8 @@ input[type=button]{
 	display:flex;
 	flex-direction: row;
 	margin-top:-150px;
-	margin-left:758px;
+	z-index:2;
+	margin-left:490px;
 	padding-left:80px;
 	font-family:Calibri;
 }
